@@ -1,0 +1,40 @@
+.register {
+  width: 100%;
+  min-height: 70vh;
+  background-image: url("https://phongcachviettravel.vn/wp-content/uploads/2022/04/TP-HCM-PHU-QUOC-3N2D-he-2023-web.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  &__container {
+    max-width: 25%;
+    width: 100%;
+    background: #fff;
+    padding: 30px 30px;
+    border-radius: 16px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.45);
+    border: 1px solid #d9d9d9;
+    @media screen and (max-width: 1440px) {
+      max-width: 40%;
+    }
+    @media screen and (max-width: 768px) {
+      max-width: 60%;
+    }
+    @media screen and (max-width: 425px) {
+      max-width: 90%;
+    }
+  }
+  &__title {
+    font-size: 30px;
+    text-align: center;
+    margin: 0 0 10px;
+    font-weight: 700;
+  }
+  &__button-submit {
+    display: flex;
+    justify-content: center;
+  }
+}

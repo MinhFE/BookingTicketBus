@@ -1,0 +1,29 @@
+{
+  "order": {
+    "Booking history": "Booking history",
+    "Code": "Code",
+    "Route": "Route",
+    "Departure day": "Departure day",
+    "Time": "Time",
+    "Price": "Price",
+    "Status": "Status",
+    "Operation": "Operation",
+    "See details": "See details",
+    "Evaluate": "Evaluate",
+    "NoItem": "No data found. Book now"
+  },
+  "rate": {
+    "Ticket Information": "Ticket Information",
+    "FullName": "Full name:",
+    "Phone": "Phone number:",
+    "Email": "Email",
+    "Total": "Total:",
+    "CarName": "Car name:",
+    "ChairName": "Chair name:",
+    "Evaluate": "Evaluate:",
+    "Cancel": "Cancel",
+    "Observe": "Observe",
+    "Write a review": "Write a review...",
+    "SUCCESSFUL PAYMENT": "SUCCESSFUL PAYMENT"
+  }
+}

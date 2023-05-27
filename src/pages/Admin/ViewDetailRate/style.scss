@@ -1,0 +1,41 @@
+.detail-rate {
+  &-top {
+    margin-bottom: 30px;
+    p {
+      font-size: 20px;
+      color: black;
+      a {
+        i {
+          display: inline-block;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+  &-list {
+    &-item {
+      // border: 1px solid gray;
+      padding: 20px;
+      border-radius: 25px;
+      margin-bottom: 10px;
+      // box-shadow: 0 1px 4px 0 #5d5c5c33;
+      background-color: #f1eaea;
+
+      &-name {
+        font-size: 20px;
+        margin-bottom: 10px;
+        font-weight: 700;
+      }
+
+      &-content {
+        font-size: 17px;
+      }
+
+      &-time {
+        margin-top: 10px;
+        font-size: 13px;
+        opacity: 0.8;
+      }
+    }
+  }
+}

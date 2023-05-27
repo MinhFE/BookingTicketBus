@@ -1,0 +1,92 @@
+.hire-detail {
+  max-width: 936px;
+  margin: auto;
+  width: 100%;
+  &__body {
+    margin: 20px 0;
+    &__top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 0 10px;
+      h3 {
+        color: #ef5222;
+        margin: 0;
+        font-size: 32px;
+        font-weight: 700;
+      }
+      button {
+        background-color: #016b3a;
+        color: #fff;
+        border-radius: 0;
+        border: 1px solid #016b3a;
+        height: 40px;
+        width: 200px;
+        font-size: 16px;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+          background-color: #fff;
+          color: #016b3a !important;
+          border: 1px solid #016b3a !important;
+        }
+      }
+    }
+    &__center {
+      &--item {
+        display: flex;
+        justify-content: space-between;
+        max-width: 600px;
+        margin: 0 0 8px;
+        h5 {
+          width: 100px;
+          margin: 0 !important;
+        }
+        p {
+          text-align: left;
+          width: 400px;
+        }
+      }
+    }
+    &__bottom {
+      border-top: 1px solid #ef5222;
+      margin: 30px 0 10px;
+      padding: 20px 0 0;
+      h5 {
+        color: #ef5222;
+        font-size: 18px;
+        font-weight: 700;
+        margin: 0 0 5px;
+      }
+      p {
+        margin: 0 0 20px;
+      }
+    }
+  }
+  &__modal {
+    &__row {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      margin: 0 0 10px;
+      &--item {
+        p {
+          font-weight: 600;
+          margin: 0 0 5px;
+          span {
+            color: #ef5222;
+            margin: 0 0 0 5px;
+          }
+        }
+      }
+    }
+    &__btn {
+      display: flex;
+      justify-content: end;
+      column-gap: 10px;
+    }
+  }
+}
+// onChange={(value) => setResume((prev) => ({
+//   ...prev,
+//   dateOfBirth: `${value.format('DD/MM/YYYY')}`,
+// }))}

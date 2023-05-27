@@ -1,0 +1,84 @@
+.profile {
+  max-width: 30vw;
+  width: 100%;
+  margin: auto;
+  min-height: 470px;
+  border: 1px solid #33333345;
+  border-radius: 16px;
+  padding: 20px 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  @media screen and (max-width: 1440px) {
+    max-width: 35vw;
+  }
+  @media screen and (max-width: 1024px) {
+    max-width: 50vw;
+  }
+  @media screen and (max-width: 768px) {
+    max-width: 70vw;
+  }
+  @media screen and (max-width: 425px) {
+    max-width: 90vw;
+  }
+  &__title {
+    text-align: center;
+    font-size: 32px !important;
+    color: #ef5222 !important;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+  }
+  &__form {
+    margin: 25px 20px 0;
+    &__item {
+      display: flex;
+      column-gap: 20px;
+      // margin: 0 0 20px;
+      @media screen and (max-width: 425px) {
+        flex-direction: column;
+        margin: 0 0 10px;
+      }
+      p {
+        min-width: 110px;
+        font-weight: 500;
+      }
+    }
+    &__btn-update {
+      height: 45px;
+      font-size: 16px;
+      font-weight: 500;
+      background-color: #ef5222;
+      border: none;
+      border-radius: 25px;
+      color: #fff;
+      border: 1px solid #ef5222 !important;
+      transition: 0.3s ease;
+      &:hover {
+        color: #ef5222 !important;
+        background-color: #fff;
+      }
+    }
+    &__btn-changepw {
+      height: 45px;
+      font-size: 16px;
+      font-weight: 500;
+      background-color: #227bef;
+      border: none;
+      border-radius: 25px;
+      color: #fff;
+      border: 1px solid #227bef;
+
+      &:hover {
+        color: #227bef !important;
+        background-color: #fff;
+      }
+    }
+  }
+}
+
+.change-pw-btn {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 10px;
+}

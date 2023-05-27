@@ -1,0 +1,52 @@
+.forgot-password {
+  position: relative;
+  &__container {
+    width: 30vw;
+    height: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 10px 20px;
+    transform: translate(-50%, 30%);
+    border: 1px solid lightgrey;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+      rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+      rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+    h4 {
+      text-align: center;
+      color: #ef5222;
+      font-size: 32px;
+      text-transform: capitalize;
+      letter-spacing: 1px;
+      margin: 40px 0 20px;
+    }
+  }
+  &__form {
+    margin: 40px 0 0;
+  }
+  &__item {
+    margin: 0 0 10px 0;
+    p {
+      margin: 0 0 10px 0;
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+  &__submit {
+    width: 100%;
+    margin: 20px 0 0;
+    height: 50px;
+    background-color: #ef5222;
+    border: none;
+    border-radius: 40px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    &:hover {
+      color: #fff !important;
+    }
+  }
+}

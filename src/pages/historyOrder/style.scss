@@ -1,0 +1,44 @@
+.history {
+  max-width: 936px;
+  width: 100%;
+  margin: auto;
+  .pagination-order {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  &__title {
+    font-size: 28px !important;
+    text-align: center;
+    margin: 20px 0;
+    color: #ef5222 !important;
+  }
+  p {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 0 0 30px;
+    font-size: 18px;
+    background: lightblue;
+  }
+  table {
+    width: 100%;
+    border: 1px solid lightgrey;
+    margin: 30px 0;
+    text-align: center;
+    thead {
+      width: 100%;
+      border-radius: 8px;
+      border: 1px solid #d5d5d5;
+      background-color: #f6f6f6;
+      border-bottom: 1px solid lightgrey;
+      th {
+        border-bottom: 1px solid lightgrey;
+      }
+    }
+    tr {
+      height: 42px;
+    }
+  }
+}

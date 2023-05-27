@@ -1,0 +1,28 @@
+{
+  "validate": {
+    "Không được chứa ký tự đặc biệt!": "Không được chứa ký tự đặc biệt!",
+    "Vui lòng nhập email!": "Vui lòng nhập email!",
+    "Sai định dạng email": "Sai định dạng! VD: abc@gmail.com",
+    "Không được chứa chữ số và ký tự đặc biệt!": "Không được chứa chữ số và ký tự đặc biệt",
+    "Please input your password!": "Vui lòng nhập mật khẩu!",
+    "Mật khẩu phải từ 6 đến 20 ký tự!": "Mật khẩu phải từ 6 đến 20 ký tự!",
+    "Chỉ chứa chữ số!": "Chỉ chứa chữ số!",
+    "Please input your name!": "Vui lòng nhập họ và tên!",
+    "Please input your username!": "Vui lòng nhập tên tài khoản!",
+    "Please input your Id Card!": "Vui lòng nhập CCCD/CMND!",
+    "Số điện thoại phải có 10 số!": "SĐT bắt đầu là 0 và đủ 10 số!",
+    "Please input your phone number!": "Vui lòng nhập số điện thoại!",
+    "Please input your email!": "Vui lòng nhập Email!",
+    "Please input your city!": "Vui lòng nhập Tỉnh/TP!",
+    "Không được là chữ số!": "Không được chứa chữ số!",
+    "Please input your district!": "Vui lòng nhập Quận/Huyện!",
+    "Huỷ": "Huỷ",
+    "Vui lòng chọn giới tính": "Vui lòng chọn giới tính!",
+    "Vui lòng chọn ngày sinh": "Vui lòng chọn ngày sinh!",
+    "Vui lòng chọn học vấn!": "Vui lòng chọn học vấn!",
+    "Vui lòng nhập địa chỉ!": "Vui lòng nhập địa chỉ!",
+    "Vui lòng giới thiệu về bản thân bạn!": "Vui lòng giới thiệu về bản thân bạn!",
+    "Vui lòng nhập lại mật khẩu": "Vui lòng nhập lại mật khẩu!",
+    "Thay đổi mật khẩu": "Thay đổi mật khẩu"
+  }
+}

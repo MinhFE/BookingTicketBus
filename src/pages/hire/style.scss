@@ -1,0 +1,102 @@
+.hire {
+  max-width: 936px;
+  width: 100%;
+  margin: auto;
+  @media screen and (max-width: 768px) {
+    max-width: 700px;
+  }
+  @media screen and (max-width: 425px) {
+    max-width: 400px;
+  }
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin: 20px 0;
+    @media screen and (max-width: 425px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  &__control {
+    width: 100%;
+    p {
+      color: #ef5222;
+      font-weight: 600;
+      margin: 0 0 10px;
+    }
+    &--select {
+      width: 100%;
+    }
+  }
+  &__btn-search {
+    background: #ef5222 !important;
+    border: none;
+    color: #fff !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 130px;
+    height: 40px;
+    padding: 10px 20px;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  &__data {
+    border-top: 1px solid #ef5222;
+    margin: 0px 0 30px;
+    padding: 15px 0 30px;
+    &__item {
+      display: block;
+      color: #000;
+      margin: 10px 0 0;
+      border-bottom: 1px solid #3333335b;
+      padding: 10px;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        box-shadow: 2px 5px 11px #eae1e1, 2px -5px 11px #eae1e1;
+        cursor: pointer;
+        background-color: rgb(227, 243, 249);
+      }
+      h5 {
+        font-size: 20px !important;
+        margin: 0 !important;
+      }
+      &--bottom {
+        display: flex;
+        align-items: center;
+        column-gap: 50px;
+        i {
+          color: #ef5222;
+          margin: 0 10px 0 0;
+        }
+      }
+    }
+    &__bottom {
+      margin: 15px 0 0;
+      display: flex;
+      justify-content: end;
+      .ant-pagination-item {
+        border-color: #ef5222 !important;
+        a {
+          color: #ef5222;
+        }
+      }
+      .ant-pagination .ant-pagination-item-active {
+        font-weight: 600;
+        background-color: #ef5222 !important;
+        border-color: #ef5222 !important;
+        a {
+          color: #fff !important;
+        }
+      }
+    }
+  }
+  &__empty {
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    background: #add8e64d;
+    margin: 0 0 10px;
+  }
+}

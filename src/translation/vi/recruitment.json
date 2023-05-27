@@ -1,0 +1,100 @@
+{
+  "recruitment": {
+    "Tên công việc": "Tên công việc",
+    "Chọn công việc": "Chọn công việc",
+    "Cấp bậc": "Cấp bậc",
+    "Chọn cấp bậc": "Chọn cấp bậc",
+    "Hình thức": "Hình thức",
+    "Chọn hình thức": "Chọn hình thức",
+    "Số năm kinh nghiệm": "Số năm kinh nghiệm",
+    "Chọn kinh nghiệm": "Chọn kinh nghiệm",
+    "Tỉnh/TP": "Tỉnh/TP",
+    "Chọn Tỉnh/TP": "Chọn Tỉnh/TP",
+    "Công ty": "Công ty",
+    "Chọn công ty": "Chọn công ty",
+    "Tìm kiếm": "Tìm kiếm",
+    "Trước": "Trước",
+    "Sau": "Sau",
+    "Không tìm thấy kết quả phù hợp": "Không tìm thấy kết quả phù hợp"
+  },
+  "job": {
+    "Tiếp viên tuyến": "Tiếp viên tuyến",
+    "Lái xe tuyến": "Lái xe tuyến",
+    "Lái xe trung chuyển": "Lái xe trung chuyển"
+  },
+  "rank": {
+    "Thực tập sinh": "Thực tập sinh",
+    "Nhân viên": "Nhân viên",
+    "Quản lý": "Quản lý"
+  },
+  "form": {
+    "Nhân viên chính thức": "Nhân viên chính thức",
+    "Nhân viên thời vụ": "Nhân viên thời vụ",
+    "Nhân viên bán thời gian": "Nhân viên bán thời gian"
+  },
+  "experience": {
+    "Chưa có kinh nghiệm": "Chưa có kinh nghiệm",
+    "0 - 1 năm": "0 - 1 năm",
+    "1 - 2 năm": "1 - 2 năm",
+    "2 - 3 năm": "2 - 3 năm",
+    "3 - 4 năm": "3 - 4 năm",
+    "4 - 5 năm": "4 - 5 năm",
+    "Trên 5 năm": "Trên 5 năm",
+    "Trên 10 năm": "Trên 10 năm"
+  },
+  "city": {
+    "TP. Hồ Chí Minh": "TP. Hồ Chí Minh",
+    "Hà Nội": "Hà Nội",
+    "Đà Nẵng": "Đà Nẵng",
+    "Cần Thơ": "Cần Thơ",
+    "Gia Lai": "Gia Lai"
+  },
+  "viewDetail": {
+    "Nộp hồ sơ nhanh": "Nộp hồ sơ nhanh",
+    "Nơi làm việc": "Nơi làm việc:",
+    "Số lượng": "Số lượng:",
+    "Kinh nghiệm": "Kinh nghiệm:",
+    "Mức lương": "Mức lương:",
+    "Mô tả công việc": "Mô tả công việc:",
+    "Yêu cầu": "Yêu cầu:",
+    "Danh sách hồ sơ xin việc": "Danh sách hồ sơ xin việc:"
+  },
+  "validate": {
+    "title": "Hồ sơ",
+    "name": "Họ tên ứng viên:",
+    "gender": "Giới tính:",
+    "idCard": "Số CMND/ Thẻ căn cước:",
+    "birthDay": "Ngày sinh:",
+    "phone": "Số điện thoại:",
+    "education": "Trình độ học vấn:",
+    "address": "Địa chỉ:",
+    "introduce": "Giới thiệu sơ lược về bản thân:",
+    "apply": "Nộp",
+    "cancel": "Huỷ"
+  },
+  "placeHolder": {
+    "name": "Nhập họ và tên",
+    "gender": "Chọn giới tính",
+    "idCard": "Nhập CCCD/CMT",
+    "birthDay": "Chọn ngày sinh",
+    "phone": "Nhập số điện thoại",
+    "education": "Chọn trình độ học vấn",
+    "address": "Nhập địa chỉ",
+    "email": "Nhập địa chỉ email",
+    "introduce": "Giới thiệu bản thân"
+  },
+  "apply": {
+    "Thạc sĩ": "Thạc sĩ",
+    "Đại học": "Đại học",
+    "Cao đẳng": "Cao đẳng",
+    "Trung cấp": "Trung cấp",
+    "THPT": "THPT",
+    "THCS": "THCS",
+    "Tiểu học": "Tiểu học",
+    "Tiến sĩ": "Tiến sĩ"
+  },
+  "gender": {
+    "Nam": "Nam",
+    "Nữ": "Nữ"
+  }
+}

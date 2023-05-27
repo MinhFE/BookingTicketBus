@@ -1,0 +1,29 @@
+{
+  "order": {
+    "Booking history": "Lịch sử đặt vé",
+    "Code": "Mã vé",
+    "Route": "Tuyến đường",
+    "Departure day": "Ngày đi",
+    "Time": "Giờ",
+    "Price": "Giá vé",
+    "Status": "Trạng thái",
+    "Operation": "Thao tác",
+    "See details": "Xem chi tiết",
+    "Evaluate": "Đánh giá",
+    "NoItem": "Không tìm thấy dữ liệu. Đặt vé ngay"
+  },
+  "rate": {
+    "Ticket Information": "Thông Tin Vé",
+    "FullName": "Họ tên:",
+    "Phone": "Số điện thoại:",
+    "Email": "Email",
+    "Total": "Tổng tiền thanh toán:",
+    "CarName": "Tên xe:",
+    "ChairName": "Tên ghế:",
+    "Evaluate": "Đánh giá:",
+    "Cancel": "Huỷ vé",
+    "Observe": "Nhận xét",
+    "Write a review": "Viết nhận xét...",
+    "SUCCESSFUL PAYMENT": "THANH TOÁN THÀNH CÔNG"
+  }
+}

@@ -1,0 +1,106 @@
+.pop-des {
+  width: 100%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  &__title {
+    font-weight: 700 !important;
+    font-size: min(5vw, 30px) !important;
+    letter-spacing: 4.09px;
+    color: #ef5222 !important;
+    text-align: center;
+    margin-bottom: 0 !important;
+  }
+  &__intro {
+    opacity: 0.7;
+    font-size: min(22px, 3.5vw);
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #004a2f;
+  }
+  &__list {
+    margin: 30px 0 20px;
+    .slick-slide {
+      width: 210px !important;
+      margin: 0 10px 0 0;
+    }
+    .swiper {
+      padding: 25px 0 40px;
+    }
+    .swiper-button-prev,
+    .swiper-button-next {
+      border-radius: 50%;
+      width: 48px;
+      height: 48px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: none;
+      padding: 0;
+      box-shadow: 1px 2px 7px #000;
+      background: #fff;
+      color: grey;
+    }
+    .swiper-button-prev {
+      left: 10%;
+      &::after {
+        font-size: 30px;
+      }
+    }
+    .swiper-button-next {
+      right: 10%;
+      &::after {
+        font-size: 30px;
+      }
+    }
+    .swiper-slide-active {
+      transform: scale(1.1);
+      &::before{
+        background: none;
+      }
+    }
+  }
+  &__item {
+    max-width: 210px;
+    height: 265px;
+    border-radius: 8px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    &::before {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(180deg, #ffffff69 50%, #7d7d7d80 79%);
+      border-radius: 8px;
+      box-shadow: 5px 5px 15px 0px #0000006b;
+    }
+    &__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: end;
+      height: 265px;
+      i {
+        margin: 0 5px 0 0;
+      }
+      p {
+        text-shadow: 0 0 2px #000;
+        font-size: 15px;
+        letter-spacing: 0.34px;
+        color: #fff;
+      }
+      h5 {
+        font-size: 26px;
+        font-weight: 500;
+        color: #fff;
+        margin: 0 0 8px;
+        text-shadow: 0 0 2px #000;
+      }
+    }
+  }
+}

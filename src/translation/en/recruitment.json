@@ -1,0 +1,100 @@
+{
+  "recruitment": {
+    "Tên công việc": "The job",
+    "Chọn công việc": "Select a job",
+    "Cấp bậc": "Rank",
+    "Chọn cấp bậc": "Select a rank",
+    "Hình thức": "Form",
+    "Chọn hình thức": "Select a form",
+    "Số năm kinh nghiệm": "Experience",
+    "Chọn kinh nghiệm": "Select experience",
+    "Tỉnh/TP": "Province/City",
+    "Chọn Tỉnh/TP": "Select province/city",
+    "Công ty": "Company",
+    "Chọn công ty": "Select company ",
+    "Tìm kiếm": "Search",
+    "Trước": "Before",
+    "Sau": "After",
+    "Không tìm thấy kết quả phù hợp": "No matching results were found"
+  },
+  "job": {
+    "Tiếp viên tuyến": "Route attendant",
+    "Lái xe tuyến": "Driving route",
+    "Lái xe trung chuyển": "Transit driver"
+  },
+  "rank": {
+    "Thực tập sinh": "Intern",
+    "Nhân viên": "Employee",
+    "Quản lý": "Manager"
+  },
+  "form": {
+    "Nhân viên chính thức": "Official staff",
+    "Nhân viên thời vụ": "Seasonal workers",
+    "Nhân viên bán thời gian": "Part-time staff"
+  },
+  "experience": {
+    "Chưa có kinh nghiệm": "Inexperienced",
+    "0 - 1 năm": "0 - 1 year",
+    "1 - 2 năm": "1 - 2 year",
+    "2 - 3 năm": "2 - 3 year",
+    "3 - 4 năm": "3 - 4 year",
+    "4 - 5 năm": "4 - 5 year",
+    "Trên 5 năm": "Over 5 year",
+    "Trên 10 năm": "Over 10 year"
+  },
+  "city": {
+    "TP. Hồ Chí Minh": "Ho Chi Minh City",
+    "Hà Nội": "Ha Noi",
+    "Đà Nẵng": "Da Nang",
+    "Cần Thơ": "Can Tho",
+    "Gia Lai": "Gia Lai"
+  },
+  "viewDetail": {
+    "Nộp hồ sơ nhanh": "Apply",
+    "Nơi làm việc": "Location:",
+    "Số lượng": "Amount:",
+    "Kinh nghiệm": "Experience:",
+    "Mức lương": "Salary:",
+    "Mô tả công việc": "Job description:",
+    "Yêu cầu": "Requirement :",
+    "Danh sách hồ sơ xin việc": "List of resumes:"
+  },
+  "validate": {
+    "title": "Resume",
+    "name": "Full name:",
+    "gender": "Gender:",
+    "idCard": "ID Card:",
+    "birthDay": "BirthDay:",
+    "phone": "Phone number:",
+    "education": "Education:",
+    "address": "Address:",
+    "introduce": "Introduce yourself briefly:",
+    "apply": "Apply",
+    "cancel": "Cancel"
+  },
+  "placeHolder": {
+    "name": "Enter your full name",
+    "gender": "Select your gender",
+    "idCard": "Enter your ID Card",
+    "birthDay": "Select your birtday",
+    "phone": "Enter your phone number",
+    "education": "Select your education",
+    "address": "Enter your address",
+    "email": "Enter your email",
+    "introduce": "Enter introduce yourself"
+  },
+  "apply": {
+    "Thạc sĩ": "Master",
+    "Đại học": "University",
+    "Cao đẳng": "College",
+    "Trung cấp": "Intermediate",
+    "THPT": "High School",
+    "THCS": "Middle School",
+    "Tiểu học": "Primary Education",
+    "Tiến sĩ": "Doctor"
+  },
+  "gender": {
+    "Nam": "Male",
+    "Nữ": "Female"
+  }
+}

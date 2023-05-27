@@ -1,0 +1,28 @@
+{
+  "validate": {
+    "Không được chứa ký tự đặc biệt!": "Do not write any special signs!",
+    "Vui lòng nhập email!": "Please enter your email!",
+    "Sai định dạng email": "Wrong format! Ex: abc@gmail.com",
+    "Không được chứa chữ số và ký tự đặc biệt!": "Mustn't contain numbers and special characters!",
+    "Please input your password!": "Please input your password!",
+    "Mật khẩu phải từ 6 đến 20 ký tự!": "Password must be between 6 and 20 characters!",
+    "Chỉ chứa chữ số!": "Contains only digits",
+    "Please input your name!": "Please input your name!",
+    "Please input your username!": "Please input your username!",
+    "Please input your Id Card!": "Please input your ID Card!",
+    "Số điện thoại phải có 10 số!": "Phone number must have 10 numbers and first number is 0!",
+    "Please input your phone number!": "Please input your phone number!",
+    "Please input your email!": "Please input your email!",
+    "Please input your city!": "Please input your city!",
+    "Không được là chữ số!": "Can't be a digit!",
+    "Please input your district!": "Please input your district!",
+    "Huỷ": "Cancel",
+    "Vui lòng chọn giới tính": "Please select gender!",
+    "Vui lòng chọn ngày sinh": "Please select your date of birth!",
+    "Vui lòng chọn học vấn!": "Please select Education!",
+    "Vui lòng nhập địa chỉ!": "Please enter the address!",
+    "Vui lòng giới thiệu về bản thân bạn!": "Please introduce yourself!",
+    "Vui lòng nhập lại mật khẩu": "Please re-enter password!",
+    "Thay đổi mật khẩu": "Change the password"
+  }
+}

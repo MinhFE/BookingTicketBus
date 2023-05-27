@@ -1,0 +1,103 @@
+.contact {
+  &__bus {
+    max-width: 936px;
+    width: 100%;
+    margin: auto;
+    min-height: 200px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    &__title {
+      text-align: center;
+      font-size: 18px !important;
+      margin: 20px 0 10px;
+      font-weight: 700 !important;
+      color: #f15a24 !important;
+    }
+    &__thank {
+      max-width: 614px;
+      font-style: italic;
+      font-size: 17px;
+      color: #637280;
+      text-align: center;
+      margin: auto;
+    }
+    &__form {
+      display: flex;
+      gap: 10px;
+      padding: 20px 20px 50px;
+    }
+    &__left {
+      width: 50%;
+      &--control {
+        p {
+          font-size: 14px;
+          font-weight: 500;
+          color: #4a4a4a;
+          margin: 10px 0;
+        }
+      }
+      &--send {
+        color: #fff;
+        background-color: #237751 !important;
+        border-color: #1b5b3e !important;
+        width: 90px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 10px 0;
+        // float: right;
+        &:hover {
+          color: #fff !important;
+        }
+      }
+    }
+    &__right {
+      width: 50%;
+      &--map {
+        iframe {
+          width: 440px;
+          height: 300px;
+        }
+        h3 {
+          color: #ef5222 !important;
+          text-transform: uppercase;
+          font-size: 20px !important;
+          margin: 10px 0 5px;
+        }
+        p {
+          color: #4a4a4a;
+          font-size: 14px;
+          margin: 0 0 5px;
+        }
+        span {
+          color: #ef5222;
+        }
+      }
+      &--phone {
+        font-size: 22px;
+        font-weight: 600;
+        color: #ef5222;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact {
+    &__bus {
+      max-width: 700px;
+    }
+    &__right {
+      overflow: hidden;
+      &--map {
+        iframe {
+          width: 330px;
+          height: 250px;
+        }
+      }
+    }
+  }
+}

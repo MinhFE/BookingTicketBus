@@ -1,0 +1,86 @@
+.find-bus {
+  max-width: 936px;
+  width: 100vw;
+  border-radius: 16px;
+  box-shadow: 4px 4px 20px 1px hsla(0, 0%, 54.5%, 0.4);
+  background-color: #fff;
+  padding: 24px;
+  margin-bottom: 40px;
+  margin: auto;
+  position: relative;
+  &__list {
+    width: 100%;
+    display: flex;
+  }
+  &__booking {
+    width: 50%;
+    display: flex;
+    &--item {
+      display: flex;
+      width: 50%;
+      flex-direction: column;
+      border: 1px solid #dce1e6;
+      border-radius: 6px;
+      padding: 10px 16px;
+      margin: 10px 10px 10px 0;
+    }
+  }
+  &__group {
+    display: flex;
+    column-gap: 10px;
+    width: 50%;
+    border-radius: 6px;
+    border: 1px solid #dce1e6;
+    padding: 10px 16px;
+    margin: auto auto 10px;
+    &--item {
+      width: 50%;
+    }
+  }
+  &__btn-search {
+    display: flex;
+    border-radius: 8px;
+    background-color: #ef5222;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
+    position: absolute;
+    right: 40px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    padding: 20px 16px;
+    &:hover {
+      color: #fff !important;
+    }
+    .fa-search {
+      color: #fff;
+      font-size: 14px;
+      margin: 0 5px 0 0;
+    }
+  }
+  .ant-radio-checked .ant-radio-inner {
+    background-color: #ef5222 !important;
+    border-color: #ef5222 !important;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .find-bus {
+    &__list {
+      flex-direction: column;
+    }
+    &__booking {
+      width: 100%;
+      column-gap: 10px;
+      margin: 10px 0 0;
+      &--item {
+        margin: 0 0 10px 0;
+      }
+    }
+    &__group {
+      width: 100%;
+    }
+  }
+}

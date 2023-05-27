@@ -1,0 +1,90 @@
+.seat-car {
+  h4 {
+    text-align: center;
+    font-size: 32px;
+    text-transform: capitalize;
+  }
+  &__single {
+    max-width: 400px;
+    margin: auto;
+    &__top {
+      display: flex;
+      justify-content: space-between;
+      margin: 20px 0;
+      div {
+        display: flex;
+        column-gap: 10px;
+      }
+    }
+    &__list {
+      display: grid;
+      justify-items: center;
+      gap: 10px;
+    }
+    &--available,
+    &--unavailable {
+      border-radius: 0;
+      width: 90px;
+      height: 45px;
+      font-size: 18px;
+    }
+    &--available {
+      background: #109310;
+      border-color: #109310;
+      color: #fff;
+    }
+    &--unavailable {
+      background: #d9d9d9;
+      border-color: #d9d9d9;
+      color: #000;
+    }
+  }
+}
+.btn-back {
+  margin: 30px 0 20px;
+  display: flex;
+  justify-content: space-between;
+  .car-detail__function--back {
+    border: 1px solid #1677ff;
+    width: 120px;
+    height: 40px;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 20px;
+  }
+}
+.route-chair {
+  max-width: 550px;
+  margin: auto;
+  &__note1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    justify-items: center;
+    column-gap: 5px;
+    max-width: 370px;
+    margin: auto;
+    margin-top: 40px;
+    &__item {
+      display: flex;
+      column-gap: 10px;
+
+      &--ready,
+      &--break {
+        display: block;
+        width: 20px;
+        height: 20px;
+        border-radius: 5px;
+      }
+
+      &--ready {
+        border: 1px solid #109310;
+        background-color: #109310;
+      }
+      &--break {
+        border: 1px solid #d9d9d9;
+        background-color: #d9d9d9;
+      }
+    }
+  }
+}

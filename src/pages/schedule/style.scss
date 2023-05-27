@@ -1,0 +1,74 @@
+.schedule {
+  max-width: 936px;
+  overflow: hidden;
+  width: 100%;
+  margin: auto;
+  &__filter {
+    display: grid;
+    grid-template-columns: 380px 380px 136px;
+    gap: 20px;
+    align-items: end;
+    margin: 30px 0 20px;
+    &__control {
+      p {
+        color: #ef5222;
+        font-weight: 600;
+        margin: 0 0 10px;
+      }
+      &--select {
+        width: 100%;
+      }
+    }
+
+    &__btn-search {
+      background: #ef5222 !important;
+      border: none;
+      color: #fff !important;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 130px;
+      height: 40px;
+      padding: 10px 20px;
+    }
+  }
+  &__list {
+    table {
+      width: 100%;
+      border: 1px solid lightgrey;
+      margin: 30px 0;
+      text-align: center;
+      thead {
+        width: 100%;
+        border-radius: 8px;
+        border: 1px solid #d5d5d5;
+        background-color: #f6f6f6;
+        border-bottom: 1px solid lightgrey;
+        th {
+          border-bottom: 1px solid lightgrey;
+        }
+      }
+      tr {
+        height: 42px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .schedule {
+    max-width: 700px;
+    &__filter {
+      grid-template-columns: 260px 260px 140px;
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .schedule {
+    max-width: 400px;
+    &__filter {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}

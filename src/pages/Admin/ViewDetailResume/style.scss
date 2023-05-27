@@ -1,0 +1,54 @@
+.cv-detail {
+  max-width: 936px;
+  margin: auto;
+  &__data {
+    &__row {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+    &__item {
+      margin: 0 0 10px 0;
+      p {
+        margin: 0 0 10px 0;
+        font-weight: 500;
+      }
+    }
+  }
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 0;
+    button {
+      height: 40px;
+      border-radius: 20px;
+      font-size: 17px;
+      font-weight: 600;
+      transition: all 0.3s ease-in-out;
+    }
+    &--back {
+      width: 120px;
+    }
+    &--disabled {
+      margin: 0 20px 0 0;
+      background: #e70000;
+      border: 1px solid #e70000 !important;
+      color: #fff;
+      width: 200px;
+      &:hover {
+        color: #e70000 !important;
+        background: #fff;
+      }
+    }
+    &--update {
+      width: 140px;
+      background: #005aff;
+      color: #fff;
+      border: 1px solid #005aff !important;
+      &:hover {
+        background: #fff;
+        color: #005aff !important;
+      }
+    }
+  }
+}
